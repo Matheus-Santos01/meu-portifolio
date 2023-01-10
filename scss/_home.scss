@@ -345,7 +345,7 @@ dialog{
             .intro{
                 h1{
                     text-align: center;
-                    max-width: 30rem;
+                    max-width: 32rem;
                 }
                 p{
                     text-align: center;
@@ -353,6 +353,9 @@ dialog{
                 .links{
                     justify-content: center;
                     gap: 3rem;
+                    a{
+                        font-size: 1.3rem;
+                    }
                 }
             }
         }
@@ -388,6 +391,16 @@ dialog{
                 }
                 .description-project{
                     height: 100%;
+                    .title-project{
+                        h2,span{
+                            font-size: 2rem;
+                        }
+                    }
+                    .content-project{
+                        p{
+                            font-size: 1.2rem;
+                        }
+                    }
                 }
             }
             .links-projects{
@@ -397,7 +410,7 @@ dialog{
                 align-items: center;
                 a{
                     width: 60%;
-                    font-size: 1.4rem;
+                    font-size: 1.3rem;
                     text-align: center;
                 }
             }
