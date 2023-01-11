@@ -250,7 +250,6 @@ const closeModal = () => {
 }
 
 function toggleMenu(){
-  const body = document.querySelector('body')
   const navMenu = document.querySelector('.list-menu')
   const menuIcon = document.querySelector('.menu-icon')
   const closeIcon = document.querySelector('.close-icon')
@@ -268,6 +267,14 @@ function toggleMenu(){
   }
 }
 
+function clickItemMenu(){
+  const itemMenu = document.querySelectorAll('.item-menu')
+    itemMenu.forEach((item) => {
+      item.addEventListener('click', toggleMenu)
+  })
+}
+
+clickItemMenu()
 renderSkillsSection()
 renderProjects(highlightsProjectsContainer, hightLightProjects)
 renderProjects(allProjectsContainer, allProjects)
