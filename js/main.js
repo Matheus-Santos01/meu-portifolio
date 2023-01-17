@@ -162,7 +162,7 @@ const getProjectsByTypeOrAll = (typeId) => {
         date: '17 de Janeieo de 2022=3',
         languages: ['html', 'css', 'javascript'],
         description: `Projeto construído com o intuito de fortalecer os conceitos de HTML, CSS, JavaScript e responsividade.`,
-        imgSrc: '../assets/projects/capa-sofa.png',
+        imgSrc: '../assets/projects/card-sofa.png',
         alt: 'Card Produto',
         linkedin: '#',
         repository: 'https://github.com/Matheus-Santos01/card-sofa',
