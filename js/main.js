@@ -118,6 +118,20 @@ const getProjectsByTypeOrAll = (typeId) => {
       {
         id: 8,
         type: 1,
+        title: 'Music Player',
+        date: '16 de Janeiro de 2023',
+        languages: ['html', 'css'],
+        description: `Projeto construído com o intuito de fortalecer os conceitos de HTML, CSS e responsividade.<br>
+        Projeto realizado nos desafios #BoraCodar da Rocketseat`,
+        imgSrc: '../assets/projects/music-player.png',
+        alt: 'Music Player',
+        linkedin: '#',
+        repository: 'https://github.com/Matheus-Santos01/music-player',
+        site: 'https://music-player-nine-azure.vercel.app/'
+      },
+      {
+        id: 9,
+        type: 1,
         title: 'Clone Spotify',
         date: '07 de Outubro de 2022',
         languages: ['html', 'css'],
@@ -129,7 +143,7 @@ const getProjectsByTypeOrAll = (typeId) => {
         site: 'https://clone-spotify-ochre.vercel.app/'
       },
       {
-        id: 9,
+        id: 10,
         type: 1,
         title: 'Clone Tinder',
         date: '30 de Setembro de 2022',
