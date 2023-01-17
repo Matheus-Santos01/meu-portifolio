@@ -122,7 +122,7 @@ const getProjectsByTypeOrAll = (typeId) => {
         date: '16 de Janeiro de 2023',
         languages: ['html', 'css'],
         description: `Projeto construído com o intuito de fortalecer os conceitos de HTML, CSS e responsividade.<br>
-        Projeto realizado nos desafios #BoraCodar da Rocketseat`,
+        Projeto realizado nos desafios #BoraCodar da Rocketseat. Pretendo futuramente adicionar novas features e tornar esse player funcional.`,
         imgSrc: '../assets/projects/music-player.png',
         alt: 'Music Player',
         linkedin: '#',
@@ -154,6 +154,19 @@ const getProjectsByTypeOrAll = (typeId) => {
         linkedin: '#',
         repository: 'https://github.com/Matheus-Santos01/Tinder-clone',
         site: 'https://tinder-clone-amber.vercel.app//'
+      },
+      {
+        id: 11,
+        type: 1,
+        title: 'Card Produto',
+        date: '17 de Janeieo de 2022=3',
+        languages: ['html', 'css', 'javascript'],
+        description: `Projeto construído com o intuito de fortalecer os conceitos de HTML, CSS, JavaScript e responsividade.`,
+        imgSrc: '../assets/projects/capa-sofa.png',
+        alt: 'Card Produto',
+        linkedin: '#',
+        repository: 'https://github.com/Matheus-Santos01/card-sofa',
+        site: 'https://card-sofa.vercel.app/'
       }
     ];
   
