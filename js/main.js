@@ -63,6 +63,21 @@ const getProjectsByTypeOrAll = (typeId) => {
       {
         id: 4,
         type: 1,
+        title: 'Sistema de Filtragem',
+        date: '19 de Janeiro de 2023',
+        languages: ['html', 'css', 'javascript'],
+        description: `Projeto criado com intuito de aprender a filtrar elementos da página através do conteúdo de um input, feito com JavaScript. <br> 
+        Muito divertido e simples o projeto, com certeza vai útil em projetos futuros.`,
+        imgSrc: '../assets/projects/filter-system.png',
+        alt: 'Filter System',
+        linkedin: '#',
+        repository: 'https://github.com/Matheus-Santos01/system-filter',
+        site: 'https://system-filter.vercel.app/'
+      },
+
+      {
+        id: 5,
+        type: 1,
         title: 'My Links',
         date: '26 de Dezembro de 2022',
         languages: ['html', 'css','javascript', 'figma'],
@@ -75,7 +90,7 @@ const getProjectsByTypeOrAll = (typeId) => {
         site: 'https://my-links-me.vercel.app/'
       },
       {
-        id: 5,
+        id: 6,
         type: 1,
         title: 'Meu Relógio',
         date: '05 de Dezembro de 2022',
@@ -88,7 +103,7 @@ const getProjectsByTypeOrAll = (typeId) => {
         site: 'https://relogio-omega.vercel.app/'
       },
       {
-        id: 6,
+        id: 7,
         type: 1,
         title: 'Copa Catar 2022',
         date: '05 de Dezembro de 2022',
@@ -102,7 +117,7 @@ const getProjectsByTypeOrAll = (typeId) => {
         site: 'https://nlw-copa-puce.vercel.app/'
       },
       {
-        id: 7,
+        id: 8,
         type: 1,
         title: 'NLW e-Sports',
         date: '06 de Novembro de 2022',
@@ -116,7 +131,7 @@ const getProjectsByTypeOrAll = (typeId) => {
         site: 'https://nlw-esports-alpha.vercel.app/'
       },
       {
-        id: 8,
+        id: 9,
         type: 1,
         title: 'Music Player',
         date: '16 de Janeiro de 2023',
@@ -130,7 +145,7 @@ const getProjectsByTypeOrAll = (typeId) => {
         site: 'https://music-player-nine-azure.vercel.app/'
       },
       {
-        id: 9,
+        id: 10,
         type: 1,
         title: 'Clone Spotify',
         date: '07 de Outubro de 2022',
@@ -143,7 +158,7 @@ const getProjectsByTypeOrAll = (typeId) => {
         site: 'https://clone-spotify-ochre.vercel.app/'
       },
       {
-        id: 10,
+        id: 11,
         type: 1,
         title: 'Clone Tinder',
         date: '30 de Setembro de 2022',
@@ -156,10 +171,10 @@ const getProjectsByTypeOrAll = (typeId) => {
         site: 'https://tinder-clone-amber.vercel.app//'
       },
       {
-        id: 11,
+        id: 12,
         type: 1,
         title: 'Card Produto',
-        date: '17 de Janeieo de 2022=3',
+        date: '17 de Janeiro de 2023',
         languages: ['html', 'css', 'javascript'],
         description: `Projeto construído com o intuito de fortalecer os conceitos de HTML, CSS, JavaScript e responsividade.`,
         imgSrc: '../assets/projects/card-sofa.png',
