@@ -50,15 +50,17 @@ const getProjectsByTypeOrAll = (typeId) => {
       {
         id: 3,
         type: 2,
-        title: 'Hotel Responsivo',
-        date: '20 de Outubro de 2022',
-        languages: ['html', 'css'],
-        description: `Página criada com intuito de fortalecer conteúdos de Flexbox e responsividade `,
-        imgSrc: '../assets/projects/hotel.png',
-        alt: 'God of War Ragnarok',
+        title: 'Habits',
+        date: '21 de Janeiro de 2023',
+        languages: ['html', 'css', 'javascript', 'figma'],
+        description: `Habists criado no evento NLW Setup da Rocketseat, onde foi proposta a ideia de criar <br>
+        um habit tracker para ter um controle de atividades diárias. Maior aprendizado do projeto foi o uso de LocalStore, para quando <br>
+        sair da página ou dar refresh os dados continuarem salvos. E absolutamente isso será útil em outros projetos.`,
+        imgSrc: '../assets/projects/hanits.png',
+        alt: 'Habits Tracker',
         linkedin: '#',
-        repository: 'https://github.com/Matheus-Santos01/Hotel-Site',
-        site: 'https://hotel-site-omega.vercel.app//'
+        repository: 'https://github.com/Matheus-Santos01/habits',
+        site: 'https://habits-e.vercel.app/'
       },
       {
         id: 4,
@@ -74,7 +76,6 @@ const getProjectsByTypeOrAll = (typeId) => {
         repository: 'https://github.com/Matheus-Santos01/system-filter',
         site: 'https://system-filter.vercel.app/'
       },
-
       {
         id: 5,
         type: 1,
@@ -92,6 +93,19 @@ const getProjectsByTypeOrAll = (typeId) => {
       {
         id: 6,
         type: 1,
+        title: 'Hotel Responsivo',
+        date: '20 de Outubro de 2022',
+        languages: ['html', 'css'],
+        description: `Página criada com intuito de fortalecer conteúdos de Flexbox e responsividade `,
+        imgSrc: '../assets/projects/hotel.png',
+        alt: 'God of War Ragnarok',
+        linkedin: '#',
+        repository: 'https://github.com/Matheus-Santos01/Hotel-Site',
+        site: 'https://hotel-site-omega.vercel.app//'
+      },
+      {
+        id: 7,
+        type: 1,
         title: 'Meu Relógio',
         date: '05 de Dezembro de 2022',
         languages: ['html', 'css','javascript'],
@@ -103,7 +117,7 @@ const getProjectsByTypeOrAll = (typeId) => {
         site: 'https://relogio-omega.vercel.app/'
       },
       {
-        id: 7,
+        id: 8,
         type: 1,
         title: 'Copa Catar 2022',
         date: '05 de Dezembro de 2022',
@@ -117,7 +131,7 @@ const getProjectsByTypeOrAll = (typeId) => {
         site: 'https://nlw-copa-puce.vercel.app/'
       },
       {
-        id: 8,
+        id: 9,
         type: 1,
         title: 'NLW e-Sports',
         date: '06 de Novembro de 2022',
@@ -131,7 +145,7 @@ const getProjectsByTypeOrAll = (typeId) => {
         site: 'https://nlw-esports-alpha.vercel.app/'
       },
       {
-        id: 9,
+        id: 10,
         type: 1,
         title: 'Music Player',
         date: '16 de Janeiro de 2023',
@@ -145,7 +159,7 @@ const getProjectsByTypeOrAll = (typeId) => {
         site: 'https://music-player-nine-azure.vercel.app/'
       },
       {
-        id: 10,
+        id: 11,
         type: 1,
         title: 'Clone Spotify',
         date: '07 de Outubro de 2022',
@@ -158,7 +172,7 @@ const getProjectsByTypeOrAll = (typeId) => {
         site: 'https://clone-spotify-ochre.vercel.app/'
       },
       {
-        id: 11,
+        id: 12,
         type: 1,
         title: 'Clone Tinder',
         date: '30 de Setembro de 2022',
@@ -171,7 +185,7 @@ const getProjectsByTypeOrAll = (typeId) => {
         site: 'https://tinder-clone-amber.vercel.app//'
       },
       {
-        id: 12,
+        id: 13,
         type: 1,
         title: 'Card Produto',
         date: '17 de Janeiro de 2023',
