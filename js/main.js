@@ -56,7 +56,7 @@ const getProjectsByTypeOrAll = (typeId) => {
         description: `Habists criado no evento NLW Setup da Rocketseat, onde foi proposta a ideia de criar <br>
         um habit tracker para ter um controle de atividades diárias. Maior aprendizado do projeto foi o uso de LocalStore, para quando <br>
         sair da página ou dar refresh os dados continuarem salvos. E absolutamente isso será útil em outros projetos.`,
-        imgSrc: '../assets/projects/hanits.png',
+        imgSrc: '../assets/projects/habits.png',
         alt: 'Habits Tracker',
         linkedin: '#',
         repository: 'https://github.com/Matheus-Santos01/habits',
