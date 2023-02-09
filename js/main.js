@@ -91,6 +91,20 @@ const getProjectsByTypeOrAll = (typeId) => {
         site: 'https://my-links-me.vercel.app/'
       },
       {
+        id: 14,
+        type: 1,
+        title: 'News page',
+        date: '09 de fevereiro de 2023',
+        languages: ['html', 'sass', 'javascript'],
+        description: `Meu primeiro desafio do Frontend Mentor onde quis começar com um desafio simples, decidi por utilizar Sass na estilização do projeto já que tem bastante elementos na tela. <br>
+        Layout totalmente responsivo para o mobile e desktop. Desafio realizado principalmente com o intuito de fortalecer conhecimentos básicos como: HTML, CSS, responsividade, JavaScript, Git e Github.`,
+        imgSrc: '../assets/projects/news-page.png',
+        alt: 'News page',
+        linkedin: '#',
+        repository: 'https://github.com/Matheus-Santos01/news-page',
+        site: 'https://news-page-seven.vercel.app/'
+      },
+      {
         id: 6,
         type: 1,
         title: 'Hotel Responsivo',
