@@ -91,6 +91,20 @@ const getProjectsByTypeOrAll = (typeId) => {
         site: 'https://my-links-me.vercel.app/'
       },
       {
+        id: 15,
+        type: 1,
+        title: 'Sneakers page',
+        date: '16 de fevereiro de 2023',
+        languages: ['html', 'sass', 'javascript'],
+        description: `Meu segundo desafio do Frontend Mentor, decidi por utilizar Sass na estilização do projeto já que tem bastante elementos na tela. Layout totalmente responsivo para o mobile e desktop. <br>
+        Uso da biblioteca Swiper JS para fazer os slides do produto, lib facilitou muito a construção. Desafio realizado principalmente com o intuito de fortalecer conhecimentos básicos como: HTML, Sass, responsividade, JavaScript, Git e Github.`,
+        imgSrc: '../assets/projects/sneakers-page.jpg',
+        alt: 'Sneakers page',
+        linkedin: 'https://www.linkedin.com/feed/update/urn:li:activity:7034932377537634305/',
+        repository: 'https://github.com/Matheus-Santos01/sneakers-page',
+        site: 'https://sneakers-page-ecru.vercel.app/'
+      },
+      {
         id: 14,
         type: 1,
         title: 'News page',
@@ -112,7 +126,7 @@ const getProjectsByTypeOrAll = (typeId) => {
         languages: ['html', 'css'],
         description: `Página criada com intuito de fortalecer conteúdos de Flexbox e responsividade `,
         imgSrc: '../assets/projects/hotel.png',
-        alt: 'God of War Ragnarok',
+        alt: 'Hotel responsivo',
         linkedin: '#',
         repository: 'https://github.com/Matheus-Santos01/Hotel-Site',
         site: 'https://hotel-site-omega.vercel.app//'
