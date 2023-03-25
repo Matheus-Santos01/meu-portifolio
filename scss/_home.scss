@@ -3,7 +3,8 @@
     .container{
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
+        gap: 12rem;
         padding-top: 12rem;
         .profile{
             position: relative;
@@ -28,7 +29,7 @@
                 font-size: 4.2rem;
                 font-weight: 500;
                 line-height: 120%;
-                text-align: right;
+                text-align: left;
                 span{
                     color: #FF9D1E;
                 }
@@ -38,7 +39,8 @@
                 font-weight: 400;
                 margin-top: 1rem;
                 color: #aba5a5;
-                text-align: right;
+                text-align: left;
+                max-width: 28rem;
             }
             .links{
                 display: flex;
