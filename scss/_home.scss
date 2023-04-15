@@ -299,10 +299,6 @@ dialog{
             .profile{
                 width: 22rem;
                 height: 22rem;
-                .image-container{
-                    width: 22rem;
-                    height: 22rem;
-                }
             }
             .intro{
                 h1{
@@ -325,14 +321,10 @@ dialog{
     .s-hero{
         .container{
             flex-direction: column;
-            padding-top: 4rem;
+            padding: 4rem 0;
             .profile{
-                width: 35rem;
-                height: 35rem;
-                .image-container{
-                    width: 28rem;
-                    height: 28rem;
-                }
+                width: 32rem;
+                height: 36rem;
             }
             .intro{
                 h1{
